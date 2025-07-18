@@ -20,7 +20,7 @@ A comprehensive multi-tenant B2B field service management platform built with Re
 
 2. Run the development server:
    ```bash
-   npm run dev
+   npm start
    ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
