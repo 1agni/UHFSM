@@ -1,6 +1,6 @@
 # Field Service Platform
 
-A comprehensive multi-tenant B2B field service management platform built with Next.js.
+A comprehensive multi-tenant B2B field service management platform built with React.
 
 ## Features
 
@@ -20,7 +20,7 @@ A comprehensive multi-tenant B2B field service management platform built with Ne
 
 2. Run the development server:
    ```bash
-   npm run dev
+   npm start
    ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -31,7 +31,6 @@ This application is configured for deployment on Railway.app.
 
 ## Tech Stack
 
-- Next.js 14
 - React 18
 - TypeScript
 - Node.js
