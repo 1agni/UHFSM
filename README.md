@@ -1,6 +1,6 @@
 # Field Service Platform
 
-A comprehensive multi-tenant B2B field service management platform built with Next.js.
+A comprehensive multi-tenant B2B field service management platform built with Create React App.
 
 ## Features
 
@@ -18,12 +18,18 @@ A comprehensive multi-tenant B2B field service management platform built with Ne
    npm install
    ```
 
-2. Run the development server:
+2. Create a `.env` file from the provided example:
    ```bash
-   npm run dev
+   cp .env.example .env
+   # edit REACT_APP_API_URL if needed
    ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. Run the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deployment
 
@@ -31,7 +37,7 @@ This application is configured for deployment on Railway.app.
 
 ## Tech Stack
 
-- Next.js 14
 - React 18
 - TypeScript
 - Node.js
+
