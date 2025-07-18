@@ -1,0 +1,9 @@
+# Ignore local dependencies
+node_modules/
+
+# Ignore zipped exports
+*.zip
+
+# Ignore system files
+.DS_Store
+
